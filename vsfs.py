@@ -1,0 +1,80 @@
+for x in range (1,10):
+	for y in range (1,10):
+		if x==1:
+			print 'ㄧ',
+		elif x==2:
+			print '二',
+		elif x==3:
+			print '三',
+		elif x==4:
+			print '四',
+		elif x==5:
+			print '五',
+		elif x==6:
+			print '六',
+		elif x==7:
+			print '七',
+		elif x==8:
+			print '八',
+		elif x==9:
+			print '九',
+		print '乘',
+		if y==1:
+			print 'ㄧ',
+		elif y==2:
+			print '二',
+		elif y==3:
+			print '三',
+		elif y==4:
+			print '四',
+		elif y==5:
+			print '五',
+		elif y==6:
+			print '六',
+		elif y==7:
+			print '七',
+		elif y==8:
+			print '八',
+		elif y==9:
+			print '九',
+		print '等於',
+		a=x*y
+		b=a/10
+		c=a%10
+		if b>0:
+			if b==2:
+				print '二',
+			elif b==3:
+				print '三',
+			elif b==4:
+				print '四',
+			elif b==5:
+				print '五',
+			elif b==6:
+				print '六',
+			elif b==7:
+				print '七',
+			elif b==8:
+				print '八',
+			print '十',
+		if c>0:
+			if c==1:
+				print '一',
+			elif c==2:
+				print '二',
+			elif c==3:
+				print '三',
+			elif c==4:
+				print '四',
+			elif c==5:
+				print '五',
+			elif c==6:
+				print '六',
+			elif c==7:
+				print '七',
+			elif c==8:
+				print '八',
+			elif c==9:
+				print '九',
+		print ' '
+	print ' '
